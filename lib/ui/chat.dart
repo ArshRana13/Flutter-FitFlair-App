@@ -150,7 +150,7 @@ class _ChatPageState extends State<ChatPage> {
     );
   }
   void getAnswer() async {
-  final url = "https://generativelanguage.googleapis.com/v1beta2/models/chat-bison-001:generateMessage?key=AIzaSyCHd69nCJzX2Q8MTuKeQBtNEDmEaJFpwSs";
+  final url = "https://generativelanguage.googleapis.com/v1beta2/models/chat-bison-001:generateMessage?key=*enter your key here*";
   final uri = Uri.parse(url);
   List<Map<String,String>> msg = [];
   for (var i = 0; i < _chatHistory.length; i++) {
