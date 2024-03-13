@@ -1,4 +1,4 @@
-# fitflair
+# flutter: fitflair
 
 A new Flutter project.
 
